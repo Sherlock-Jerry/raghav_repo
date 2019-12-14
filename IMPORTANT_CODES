@@ -1,0 +1,2 @@
+sudo gnome-terminal --for root terminal
+chmod +x --for giving permissions to a file

@@ -1,0 +1,27 @@
+Setting GO PATH:-
+
+
+export GOROOT=/usr/local/go
+export GOPATH=/usr/local/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+export PATH=$PATH:$HOME/go/bin
+export GOPATH=$HOME/go
+export http_proxy=http://172.16.2.30:8080/
+export https_proxy=$http_proxy
+git config --global http.https://domain.com.proxy http://172.16.2.30:8080
+
+file for proxy settings
+-->sudo nano /etc/environment
+
+
+
+/*
+for fixing freezing problem of ubuntu(like rishi and saish)
+--> press E on grub loader
+--> then add nomodeset to last second line to start it
+for SSD laptop
+--> sudo nano /etc/default/grub
+-->change this to GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"
+--> then one link is there to install drivers(rishi whatsapp follow that)
+*/
